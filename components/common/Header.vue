@@ -71,7 +71,7 @@ export default {
   margin: auto;
 }
 .registration{
-  margin: auto;
+  margin: auto 0;
 }
 .menu-list{
   text-decoration: none!important;
