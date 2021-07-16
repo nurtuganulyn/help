@@ -75,19 +75,19 @@ export default {
     }
 
     h2 {
-      margin-top: 24px;
-      font-weight: 600;
-      font-size: 22px;
-      line-height: 30px;
-      text-align: center;
-      color: hsl(210, 29%, 24%);
+      //margin-top: 24px;
+      //font-weight: 600;
+      //font-size: 22px;
+      //line-height: 30px;
+      //text-align: center;
+      //color: hsl(210, 29%, 24%);
     }
 
     p {
-      font-size: 14px;
-      line-height: 19px;
-      text-align: center;
-      color: #2c3e50;
+      //font-size: 14px;
+      //line-height: 19px;
+      //text-align: center;
+      //color: #2c3e50;
     }
 
     .close-btn {

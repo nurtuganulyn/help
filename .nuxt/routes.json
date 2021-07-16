@@ -1,0 +1,72 @@
+[
+  {
+    "name": "addHelp",
+    "path": "/addHelp",
+    "component": "C:\\\\Users\\\\nurtu\\\\Desktop\\\\help\\\\pages\\\\addHelp.vue",
+    "chunkName": "pages/addHelp",
+    "_name": "_a24048fc"
+  },
+  {
+    "name": "addHelp2",
+    "path": "/addHelp2",
+    "component": "C:\\\\Users\\\\nurtu\\\\Desktop\\\\help\\\\pages\\\\addHelp2.vue",
+    "chunkName": "pages/addHelp2",
+    "_name": "_2d333e20"
+  },
+  {
+    "name": "final",
+    "path": "/final",
+    "component": "C:\\\\Users\\\\nurtu\\\\Desktop\\\\help\\\\pages\\\\final.vue",
+    "chunkName": "pages/final",
+    "_name": "_eac70d14"
+  },
+  {
+    "name": "help",
+    "path": "/help",
+    "component": "C:\\\\Users\\\\nurtu\\\\Desktop\\\\help\\\\pages\\\\help.vue",
+    "chunkName": "pages/help",
+    "_name": "_79cf9bf1"
+  },
+  {
+    "name": "help2",
+    "path": "/help2",
+    "component": "C:\\\\Users\\\\nurtu\\\\Desktop\\\\help\\\\pages\\\\help2.vue",
+    "chunkName": "pages/help2",
+    "_name": "_7f88e8de"
+  },
+  {
+    "name": "helpFInal",
+    "path": "/helpFInal",
+    "component": "C:\\\\Users\\\\nurtu\\\\Desktop\\\\help\\\\pages\\\\helpFInal.vue",
+    "chunkName": "pages/helpFInal",
+    "_name": "_ca8f5956"
+  },
+  {
+    "name": "helpNoReg",
+    "path": "/helpNoReg",
+    "component": "C:\\\\Users\\\\nurtu\\\\Desktop\\\\help\\\\pages\\\\helpNoReg.vue",
+    "chunkName": "pages/helpNoReg",
+    "_name": "_34b2335c"
+  },
+  {
+    "name": "main",
+    "path": "/main",
+    "component": "C:\\\\Users\\\\nurtu\\\\Desktop\\\\help\\\\pages\\\\main.vue",
+    "chunkName": "pages/main",
+    "_name": "_af3c532e"
+  },
+  {
+    "name": "registration",
+    "path": "/registration",
+    "component": "C:\\\\Users\\\\nurtu\\\\Desktop\\\\help\\\\pages\\\\registration.vue",
+    "chunkName": "pages/registration",
+    "_name": "_62692169"
+  },
+  {
+    "name": "index",
+    "path": "/",
+    "component": "C:\\\\Users\\\\nurtu\\\\Desktop\\\\help\\\\pages\\\\index.vue",
+    "chunkName": "pages/index",
+    "_name": "_454dd2d2"
+  }
+]

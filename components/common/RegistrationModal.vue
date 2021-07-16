@@ -1,6 +1,24 @@
 <template>
   <BaseModal v-if="show">
     <div class="modal__content">
+      <div v-on:click="send" class="close-icon">
+        <svg width="24" height="24" viewBox="0 0 46 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <g filter="url(#filter0_d)">
+            <path d="M35 11L11 37M11 11L35 37" stroke="#6951FC" stroke-width="2"/>
+          </g>
+          <defs>
+            <filter id="filter0_d" x="0.265198" y="0.321716" width="45.4696" height="47.3566" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+              <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+              <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"/>
+              <feOffset/>
+              <feGaussianBlur stdDeviation="5"/>
+              <feColorMatrix type="matrix" values="0 0 0 0 0.411765 0 0 0 0 0.317647 0 0 0 0 0.988235 0 0 0 0.3 0"/>
+              <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow"/>
+              <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow" result="shape"/>
+            </filter>
+          </defs>
+        </svg>
+      </div>
       <h2>Регистрация</h2>
       <div class="reg-form">
         <a>Имя</a>
@@ -15,7 +33,7 @@
         <input placeholder="example@mail.com">
       </div>
       <div class="reg-form-send">
-        <BaseButton v-on:click.native="send">Зарегистрироваться</BaseButton>
+        <BaseButton v-on:click.native="show=false">Зарегистрироваться</BaseButton>
       </div>
     </div>
   </BaseModal>
@@ -39,18 +57,21 @@ export  default {
   },
   methods:{
     send(){
-      this.$router.push({name:'/'})
+      this.$router.push({path:'/help'})
     }
   }
 }
 </script>
 
 <style scoped lang="scss">
+h2{
+  margin-top: 0;
+}
 .reg-form{
   display: flex;
   flex-direction: column;
   a{
-    margin-bottom: 10px;
+    margin-bottom: 5px;
     font-family: Inter;
     font-style: normal;
     font-weight: 500;
@@ -60,13 +81,15 @@ export  default {
   }
   input{
     width: 550px;
-    height: 60px;
+    height: 50px;
     background: #FFFFFF;
     box-shadow: 0px 0px 10px rgba(255, 150, 83, 0.5);
     border-radius: 10px;
     border: none;
-    margin-bottom: 30px;
+    margin-bottom: 15px;
     ::placeholder{
+      position: absolute;
+      left: 10px;
       font-family: Inter;
       font-style: normal;
       font-weight: normal;

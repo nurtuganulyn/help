@@ -1,10 +1,7 @@
-<template>
-  <Header/>
-</template>
-
 <script>
-import Header from "../components/common/Header";
 export default {
-  components: {Header}
+  middleware({ store, redirect }) {
+    return redirect("/main");
+  }
 }
 </script>
