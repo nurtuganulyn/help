@@ -25,7 +25,7 @@ import RegistrationModal from "../components/common/RegistrationModal";
 import AddHelpModal2 from "../components/common/AddHelpModal2";
 export default {
   components: {AddHelpModal2, RegistrationModal, Card, Header},
-  name:'help',
+  name:'help2',
   data(){
     return{
       cards:[

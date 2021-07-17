@@ -23,7 +23,7 @@ import Card from "../components/common/Card";
 import RegistrationModal from "../components/common/RegistrationModal";
 export default {
   components: {RegistrationModal, Card, Header},
-  name:'help',
+  name:'helpNoReg',
   data(){
     return{
       cards:[
