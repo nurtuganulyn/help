@@ -1,10 +1,4 @@
 {
-  "BaseButton": {
-    "description": "Auto imported from components/base/BaseButton.vue"
-  },
-  "BaseModal": {
-    "description": "Auto imported from components/base/BaseModal.vue"
-  },
   "CommonAddHelp3": {
     "description": "Auto imported from components/common/AddHelp3.vue"
   },
@@ -25,5 +19,11 @@
   },
   "CommonRegistrationModal": {
     "description": "Auto imported from components/common/RegistrationModal.vue"
+  },
+  "BaseButton": {
+    "description": "Auto imported from components/base/BaseButton.vue"
+  },
+  "BaseModal": {
+    "description": "Auto imported from components/base/BaseModal.vue"
   }
 }
