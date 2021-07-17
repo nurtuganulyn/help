@@ -4,16 +4,16 @@ import { normalizeURL, decode } from 'ufo'
 import { interopDefault } from './utils'
 import scrollBehavior from './router.scrollBehavior.js'
 
-const _a24048fc = () => interopDefault(import('..\\pages\\addHelp.vue' /* webpackChunkName: "pages/addHelp" */))
-const _2d333e20 = () => interopDefault(import('..\\pages\\addHelp2.vue' /* webpackChunkName: "pages/addHelp2" */))
-const _eac70d14 = () => interopDefault(import('..\\pages\\final.vue' /* webpackChunkName: "pages/final" */))
-const _79cf9bf1 = () => interopDefault(import('..\\pages\\help.vue' /* webpackChunkName: "pages/help" */))
-const _7f88e8de = () => interopDefault(import('..\\pages\\help2.vue' /* webpackChunkName: "pages/help2" */))
-const _ca8f5956 = () => interopDefault(import('..\\pages\\helpFInal.vue' /* webpackChunkName: "pages/helpFInal" */))
-const _34b2335c = () => interopDefault(import('..\\pages\\helpNoReg.vue' /* webpackChunkName: "pages/helpNoReg" */))
-const _af3c532e = () => interopDefault(import('..\\pages\\main.vue' /* webpackChunkName: "pages/main" */))
-const _62692169 = () => interopDefault(import('..\\pages\\registration.vue' /* webpackChunkName: "pages/registration" */))
-const _454dd2d2 = () => interopDefault(import('..\\pages\\index.vue' /* webpackChunkName: "pages/index" */))
+const _bc7faeaa = () => interopDefault(import('..\\pages\\addHelp.vue' /* webpackChunkName: "pages/addHelp" */))
+const _d346d3d2 = () => interopDefault(import('..\\pages\\addHelp2.vue' /* webpackChunkName: "pages/addHelp2" */))
+const _1c4ffcdf = () => interopDefault(import('..\\pages\\final.vue' /* webpackChunkName: "pages/final" */))
+const _4d4cf130 = () => interopDefault(import('..\\pages\\help.vue' /* webpackChunkName: "pages/help" */))
+const _51ef0efa = () => interopDefault(import('..\\pages\\help2.vue' /* webpackChunkName: "pages/help2" */))
+const _56b9fa3e = () => interopDefault(import('..\\pages\\helpFInal.vue' /* webpackChunkName: "pages/helpFInal" */))
+const _bcaee58a = () => interopDefault(import('..\\pages\\helpNoReg.vue' /* webpackChunkName: "pages/helpNoReg" */))
+const _07ebc1e0 = () => interopDefault(import('..\\pages\\main.vue' /* webpackChunkName: "pages/main" */))
+const _32b0b440 = () => interopDefault(import('..\\pages\\registration.vue' /* webpackChunkName: "pages/registration" */))
+const _51fd538a = () => interopDefault(import('..\\pages\\index.vue' /* webpackChunkName: "pages/index" */))
 
 const emptyFn = () => {}
 
@@ -21,50 +21,50 @@ Vue.use(Router)
 
 export const routerOptions = {
   mode: 'history',
-  base: '/',
+  base: '/help/',
   linkActiveClass: 'nuxt-link-active',
   linkExactActiveClass: 'nuxt-link-exact-active',
   scrollBehavior,
 
   routes: [{
     path: "/addHelp",
-    component: _a24048fc,
+    component: _bc7faeaa,
     name: "addHelp"
   }, {
     path: "/addHelp2",
-    component: _2d333e20,
+    component: _d346d3d2,
     name: "addHelp2"
   }, {
     path: "/final",
-    component: _eac70d14,
+    component: _1c4ffcdf,
     name: "final"
   }, {
     path: "/help",
-    component: _79cf9bf1,
+    component: _4d4cf130,
     name: "help"
   }, {
     path: "/help2",
-    component: _7f88e8de,
+    component: _51ef0efa,
     name: "help2"
   }, {
     path: "/helpFInal",
-    component: _ca8f5956,
+    component: _56b9fa3e,
     name: "helpFInal"
   }, {
     path: "/helpNoReg",
-    component: _34b2335c,
+    component: _bcaee58a,
     name: "helpNoReg"
   }, {
     path: "/main",
-    component: _af3c532e,
+    component: _07ebc1e0,
     name: "main"
   }, {
     path: "/registration",
-    component: _62692169,
+    component: _32b0b440,
     name: "registration"
   }, {
     path: "/",
-    component: _454dd2d2,
+    component: _51fd538a,
     name: "index"
   }],
 

@@ -2,61 +2,71 @@
   {
     "name": "addHelp",
     "path": "/addHelp",
-    "component": "C:\\\\Users\\\\nurtu\\\\Desktop\\\\help\\\\pages\\\\addHelp.vue",
-    "chunkName": "pages/addHelp"
+    "component": "C:\\\\Users\\\\nurtu\\\\Desktop\\\\kaspi-test\\\\help\\\\pages\\\\addHelp.vue",
+    "chunkName": "pages/addHelp",
+    "_name": "_bc7faeaa"
   },
   {
     "name": "addHelp2",
     "path": "/addHelp2",
-    "component": "C:\\\\Users\\\\nurtu\\\\Desktop\\\\help\\\\pages\\\\addHelp2.vue",
-    "chunkName": "pages/addHelp2"
+    "component": "C:\\\\Users\\\\nurtu\\\\Desktop\\\\kaspi-test\\\\help\\\\pages\\\\addHelp2.vue",
+    "chunkName": "pages/addHelp2",
+    "_name": "_d346d3d2"
   },
   {
     "name": "final",
     "path": "/final",
-    "component": "C:\\\\Users\\\\nurtu\\\\Desktop\\\\help\\\\pages\\\\final.vue",
-    "chunkName": "pages/final"
+    "component": "C:\\\\Users\\\\nurtu\\\\Desktop\\\\kaspi-test\\\\help\\\\pages\\\\final.vue",
+    "chunkName": "pages/final",
+    "_name": "_1c4ffcdf"
   },
   {
     "name": "help",
     "path": "/help",
-    "component": "C:\\\\Users\\\\nurtu\\\\Desktop\\\\help\\\\pages\\\\help.vue",
-    "chunkName": "pages/help"
+    "component": "C:\\\\Users\\\\nurtu\\\\Desktop\\\\kaspi-test\\\\help\\\\pages\\\\help.vue",
+    "chunkName": "pages/help",
+    "_name": "_4d4cf130"
   },
   {
     "name": "help2",
     "path": "/help2",
-    "component": "C:\\\\Users\\\\nurtu\\\\Desktop\\\\help\\\\pages\\\\help2.vue",
-    "chunkName": "pages/help2"
+    "component": "C:\\\\Users\\\\nurtu\\\\Desktop\\\\kaspi-test\\\\help\\\\pages\\\\help2.vue",
+    "chunkName": "pages/help2",
+    "_name": "_51ef0efa"
   },
   {
     "name": "helpFInal",
     "path": "/helpFInal",
-    "component": "C:\\\\Users\\\\nurtu\\\\Desktop\\\\help\\\\pages\\\\helpFInal.vue",
-    "chunkName": "pages/helpFInal"
+    "component": "C:\\\\Users\\\\nurtu\\\\Desktop\\\\kaspi-test\\\\help\\\\pages\\\\helpFInal.vue",
+    "chunkName": "pages/helpFInal",
+    "_name": "_56b9fa3e"
   },
   {
     "name": "helpNoReg",
     "path": "/helpNoReg",
-    "component": "C:\\\\Users\\\\nurtu\\\\Desktop\\\\help\\\\pages\\\\helpNoReg.vue",
-    "chunkName": "pages/helpNoReg"
+    "component": "C:\\\\Users\\\\nurtu\\\\Desktop\\\\kaspi-test\\\\help\\\\pages\\\\helpNoReg.vue",
+    "chunkName": "pages/helpNoReg",
+    "_name": "_bcaee58a"
   },
   {
     "name": "main",
     "path": "/main",
-    "component": "C:\\\\Users\\\\nurtu\\\\Desktop\\\\help\\\\pages\\\\main.vue",
-    "chunkName": "pages/main"
+    "component": "C:\\\\Users\\\\nurtu\\\\Desktop\\\\kaspi-test\\\\help\\\\pages\\\\main.vue",
+    "chunkName": "pages/main",
+    "_name": "_07ebc1e0"
   },
   {
     "name": "registration",
     "path": "/registration",
-    "component": "C:\\\\Users\\\\nurtu\\\\Desktop\\\\help\\\\pages\\\\registration.vue",
-    "chunkName": "pages/registration"
+    "component": "C:\\\\Users\\\\nurtu\\\\Desktop\\\\kaspi-test\\\\help\\\\pages\\\\registration.vue",
+    "chunkName": "pages/registration",
+    "_name": "_32b0b440"
   },
   {
     "name": "index",
     "path": "/",
-    "component": "C:\\\\Users\\\\nurtu\\\\Desktop\\\\help\\\\pages\\\\index.vue",
-    "chunkName": "pages/index"
+    "component": "C:\\\\Users\\\\nurtu\\\\Desktop\\\\kaspi-test\\\\help\\\\pages\\\\index.vue",
+    "chunkName": "pages/index",
+    "_name": "_51fd538a"
   }
 ]

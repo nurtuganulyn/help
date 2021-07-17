@@ -12,7 +12,7 @@ import { setContext, getLocation, getRouteData, normalizeError } from './utils'
 
 /* Plugins */
 
-import nuxt_plugin_plugin_cdd2f41e from 'nuxt_plugin_plugin_cdd2f41e' // Source: .\\components\\plugin.js (mode: 'all')
+import nuxt_plugin_plugin_b03ce578 from 'nuxt_plugin_plugin_b03ce578' // Source: .\\components\\plugin.js (mode: 'all')
 
 // Component: <ClientOnly>
 Vue.component(ClientOnly.name, ClientOnly)
@@ -52,7 +52,7 @@ Object.defineProperty(Vue.prototype, '$nuxt', {
 
 Vue.use(Meta, {"keyName":"head","attribute":"data-n-head","ssrAttribute":"data-n-head-ssr","tagIDKeyName":"hid"})
 
-const defaultTransition = {"name":"page","mode":"out-in","appear":false,"appearClass":"appear","appearActiveClass":"appear-active","appearToClass":"appear-to"}
+const defaultTransition = {"name":"page","mode":"out-in","appear":true,"appearClass":"appear","appearActiveClass":"appear-active","appearToClass":"appear-to"}
 
 async function createApp(ssrContext, config = {}) {
   const router = await createRouter(ssrContext, config)
@@ -176,8 +176,8 @@ async function createApp(ssrContext, config = {}) {
   }
   // Plugin execution
 
-  if (typeof nuxt_plugin_plugin_cdd2f41e === 'function') {
-    await nuxt_plugin_plugin_cdd2f41e(app.context, inject)
+  if (typeof nuxt_plugin_plugin_b03ce578 === 'function') {
+    await nuxt_plugin_plugin_b03ce578(app.context, inject)
   }
 
   // Lock enablePreview in context
